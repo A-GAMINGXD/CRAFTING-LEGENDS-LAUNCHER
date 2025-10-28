@@ -1,0 +1,4 @@
+Install The Launcher
+Unzip File Folder Package
+Double-Click The File Folder
+Double-Click "index.html"
