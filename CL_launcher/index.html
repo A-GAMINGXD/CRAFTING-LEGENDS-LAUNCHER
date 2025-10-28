@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRAFTING LEGENDS LAUNCHER</title>
+
+  <!-- Lexend Extra Bold -->
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- LOADING SCREEN -->
+  <div id="loading-screen">
+    <img src="assets/711 Gaming Studios Neon Logo.png" alt="711 Gaming Studios Logo" id="loading-logo" />
+  </div>
+
+  <!-- MAIN LAUNCHER -->
+  <div id="launcher" class="hidden">
+    <aside class="sidebar">
+      <h2>CRAFTING LEGENDS</h2>
+      <ul>
+        <li onclick="showEdition('js')">💠 JavaScript Edition <span class="price">FREE</span></li>
+        <li onclick="showEdition('cpp')">⚙️ C++ Edition <span class="price">FREE</span></li>
+        <li onclick="showEdition('deluxe')">💎 Deluxe Edition <span class="price">$20.00</span></li>
+        <li onclick="showEdition('ultimate')">🌀 Ultimate Edition <span class="price">$35.00</span></li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <section id="js" class="edition">
+        <h1>CRAFTING LEGENDS — JavaScript Edition</h1>
+        <p>Play instantly in your browser. Lightweight and fast — perfect for testing and casual fun.</p>
+        <div class="button-group">
+          <button class="neon-btn play">▶ Play</button>
+          <button class="neon-btn install">⬇ Install</button>
+        </div>
+      </section>
+
+      <section id="cpp" class="edition hidden">
+        <h1>CRAFTING LEGENDS — C++ Edition</h1>
+        <p>Desktop version for Windows, Mac, and Linux. Optimized 3D performance with offline play.</p>
+        <div class="button-group">
+          <button class="neon-btn play">▶ Play</button>
+          <button class="neon-btn install">⬇ Install</button>
+        </div>
+      </section>
+
+      <section id="deluxe" class="edition hidden">
+        <h1>CRAFTING LEGENDS — Deluxe Edition</h1>
+        <p><strong>Price:</strong> $20.00 USD</p>
+        <h3>Bonuses Included</h3>
+        <ul>
+          <li>1 456 CraftCoins / LegendTokens</li>
+          <li>5 Free Texture Packs & Add-Ons</li>
+          <li>30-Day Deluxe Override Pass</li>
+          <li>Deluxe Supporter Badge</li>
+        </ul>
+        <p>✨ Cosmetic and supportive edition — no gameplay advantages.</p>
+        <div class="button-group">
+          <button class="neon-btn play">▶ Play</button>
+          <button class="neon-btn install">⬇ Install</button>
+        </div>
+      </section>
+
+      <section id="ultimate" class="edition hidden">
+        <h1>CRAFTING LEGENDS — Ultimate Edition</h1>
+        <p><strong>Price:</strong> $35.00 USD</p>
+        <h3>Bonuses Included</h3>
+        <ul>
+          <li>150-Day Supreme Fighter Pass</li>
+          <li>50 837 CraftCoins / LegendTokens</li>
+          <li>14 Textures & Add-Ons</li>
+          <li>4 Free Marketplace Items</li>
+          <li>All Deluxe Edition content included</li>
+        </ul>
+        <p>🌌 The highest-tier experience — all cosmetic, no pay-to-win.</p>
+        <div class="button-group">
+          <button class="neon-btn play">▶ Play</button>
+          <button class="neon-btn install">⬇ Install</button>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
