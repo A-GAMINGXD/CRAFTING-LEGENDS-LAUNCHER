@@ -1,4 +1,6 @@
-Install The Launcher
-Unzip File Folder Package
-Double-Click The File Folder
-Double-Click "index.html"
+Click "Code" Make Sure You Are On "Local" And Then Click "HTTPS" Then Click "Download ZIP"
+Head Over To The Files Browser
+Find The File Folder "CRAFTING-LEGENDS-LAUNCHER-main.zip"
+Unzip/Extract It Then Double-Click "CRAFTING-LEGENDS-LAUNCHER-main" 
+Double Click The File "index.html"
+You Are On The Launcher [Not That Complete Yet]
